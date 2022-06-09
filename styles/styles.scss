@@ -81,6 +81,7 @@ body{
     position: relative;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 
     img{
         width: 600px;
@@ -106,7 +107,6 @@ body{
                 font-weight: bold;
                 margin-left: -45px;
                 width: 100px;
-                z-index: 999;
             }
 
             input{
@@ -115,16 +115,23 @@ body{
                 padding: 1em 2em;
                 outline: none;
                 border-radius: 2em;
-                z-index: -1;
                 border: none;
             }
+
         }
 
-        .message{
-            color: #fff;
-            margin-bottom: 1em;
-            font-size: 25px;
-            font-weight: bold;
-        }
     }
+
+    
+    .search_icon{
+        width: 25px;
+        margin-left: 0;
+    }
+
+     .message{
+         color: #fff;
+         margin-bottom: 1em;
+         font-size: 25px;
+         font-weight: bold;
+     }
 }

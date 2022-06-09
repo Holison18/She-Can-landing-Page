@@ -82,6 +82,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 50px;
 }
 
 .main img {
@@ -109,7 +110,6 @@ body {
   font-weight: bold;
   margin-left: -45px;
   width: 100px;
-  z-index: 999;
 }
 
 .main .search_bar .search_form input {
@@ -118,11 +118,15 @@ body {
   padding: 1em 2em;
   outline: none;
   border-radius: 2em;
-  z-index: -1;
   border: none;
 }
 
-.main .search_bar .message {
+.main .search_icon {
+  width: 25px;
+  margin-left: 0;
+}
+
+.main .message {
   color: #fff;
   margin-bottom: 1em;
   font-size: 25px;
